@@ -1,2 +1,2 @@
 # CRUD-PHP
-For learning purposes, PHP with MySQL
+CRUD PHP with MVC and MySQL
