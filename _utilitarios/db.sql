@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS `db_a3f268_myasp`.`noticias` (
   PRIMARY KEY (`noticia_id`)
 ) ENGINE = MYISAM CHARSET = utf8 ;
 
+
 CREATE TABLE IF NOT EXISTS `db_a3f268_myasp`.`users` (
   `user_id` INT(11) NOT NULL AUTO_INCREMENT,
   `user` VARCHAR(255) COLLATE utf8_bin NOT NULL,
@@ -17,6 +18,7 @@ CREATE TABLE IF NOT EXISTS `db_a3f268_myasp`.`users` (
   `user_permissions` LONGTEXT COLLATE utf8_bin,
   PRIMARY KEY (`user_id`)
 ) ENGINE=MYISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
 
 INSERT INTO `db_a3f268_myasp`.`users` (
   `user_id`,
